@@ -10,3 +10,6 @@ import urllib.request
 
 for x in range(5500, 5601):	
 	print(urllib.request.urlopen(urllib.request.Request("http://127.0.0.1:8082", headers = { "x-api-key" : x })).read())
+
+# this one took me so long I'm actually so dumb lol
+# the number the flag is on changes btw
