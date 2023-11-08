@@ -5,5 +5,5 @@
 #
 #
 with open("/tmp/alien-signal.txt") as file:
-  for x in file:
-    print(x)
+    for x in file:
+        print(x)
