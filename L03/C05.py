@@ -5,4 +5,4 @@ reg = re.findall("'(.*)'", html)
 # CHALLENGE 2: Write a loop that goes through the array from
 #              CHALLENGE 1 and prints the contents.
 for x in reg:
-  print(x)
+    print(x)
