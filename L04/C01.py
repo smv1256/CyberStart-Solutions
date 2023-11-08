@@ -4,6 +4,7 @@
 # It's at /tmp/alien-signal.txt, we need you to open and read the file.
 #
 #
+
 with open("/tmp/alien-signal.txt") as file:
     for x in file:
         print(x)
