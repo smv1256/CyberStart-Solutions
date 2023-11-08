@@ -24,3 +24,6 @@ sock.connect(("localhost", 10000))
 for x in vals:
   sock.send(x.encode())
   print(sock.recv(1024))
+
+# halfway done, lessgooo
+# been super duper ez thus far...
