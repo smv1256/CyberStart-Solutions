@@ -21,6 +21,7 @@
 # import robot module and use the robot.left(), robot.right(),
 # robot.up() and robot.down() functions
 #
+
 import robot
 
 for x in range(1, 6):
