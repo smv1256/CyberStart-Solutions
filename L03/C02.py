@@ -6,5 +6,4 @@
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.connect(("127.0.0.1", 9990))
 sock.send("Knock, knock".encode())
-resp = sock.recv(1024)
-print(resp)
+print(sock.recv(1024))
