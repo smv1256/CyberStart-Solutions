@@ -6,9 +6,9 @@
 # Note: The script can timeout if this occurs try narrowing
 # down your search
 
-"""zipfile mod to help with .zip and itertools used as nested for-loop"""
 import zipfile, itertools
 
+# itertools works like a nested for-loop
 for x in itertools.product("0123456789", repeat = 3):
   password = "".join(x)
   try:
