@@ -8,7 +8,6 @@
 #
 
 # yay I made it a bit better now
-# lemme just wait for ski to yell at me now btw
 
 with open("/tmp/randomwordsnumbers.txt", "r") as file:
     data = file.read()
