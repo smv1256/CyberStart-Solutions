@@ -7,20 +7,18 @@
 # Put a space between each word and print it out
 #
 
-# this is so bad and stupid and inefficient but I'll fix it later b'cuz it works and got the flag lol
+# yay I made it a bit better now
+# lemme just wait for ski to yell at me now btw
 
 with open("/tmp/randomwordsnumbers.txt", "r") as file:
     data = file.read()
 
-wN = data.rstrip().split("\n")
-w = []
-
-# b'cuz it's a string not an int for array index
-for x in wN:
-  w.append(int(x))
+wordNumbers = data.rstrip().split("\n")
+w = [ int(x) for x in wordNumbers ] # convert wordNumbers arr from str to int
 
 with open("/tmp/words.txt", "r") as file:
   data2 = file.read().split("\n")
-
-print(data2[w[0]] + " " + data2[w[1]] + " " + data2[w[2]])
   
+for x in range(3):
+  print(data2[w[x]], end = " ") # replace default print \n with space
+    
