@@ -11,8 +11,8 @@
 # ...creates a new social media post
 
 # ez B)
-# you don't even need to do the GET request btw
-# the info is useless
+# don't bother with the GET request btw
+# this challenge took literally like a minute _lol_
 
 from urllib import parse, request
 
