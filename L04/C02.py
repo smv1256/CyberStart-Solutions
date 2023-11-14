@@ -9,7 +9,7 @@ import os.path
 count = 1
 
 for count in range(21):
-  fname = "/tmp/agent-" + str(count)+".txt"
+  fname = "/tmp/agent-" + str(count) + ".txt"
   if os.path.isfile(fname):
     with open(fname, 'r') as content_file:
       content = content_file.read()
