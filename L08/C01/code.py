@@ -12,7 +12,7 @@
 # but when I run it again, the messages change along with the key used to decrypt them, rendering what I sent invalid.
 # So, I need to find the valid outputs with words and then send them back [sock.send(<stuff>.encode())]
 # but how do I find out if they're valid words or not?
-# For example, if you look at the output file, I gotta send the output I got in:
+# For example, if you look at the output file [https://github.com/SMVthe1st/CyberStart-Solutions/blob/main/L08/C01/output.txt], I gotta send the output I got in:
 # line 1, try 6; line 2, try 9; and line 3, try 7.
 # What Sprout suggested with the dictionary API could work, gotta test that out, 
 # but modules like enchant aren't allowed so there's a high chance you can't send API reqs either, so I wonder if there's another way...
