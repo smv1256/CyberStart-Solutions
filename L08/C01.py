@@ -5,6 +5,10 @@
 # taking care to ensure each message is split on to a newline
 #
 
+# this was hard
+# thanks a ton to some nerdz for help :D
+# will take a few runs but it'll work
+
 import socket, re
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
